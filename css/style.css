@@ -19,8 +19,8 @@ figure {
 
 .grid-container{
     display:grid;
-    width: 700px; 
-    height: 500px;
+    width: 510px; 
+    height: 320px;
     margin: 0 auto;
     row-gap:10px; 
     column-gap:10px;
@@ -68,6 +68,14 @@ figure {
 }
 
 @media only screen and (max-width:500px) {
+    .grid-container{
+        display:grid;
+        width: 296px; 
+        height: 540px;
+        margin: 0 auto;
+        row-gap:10px; 
+        column-gap:10px;
+    }
     #item1 {
         grid-column:1/2;
         grid-row:1/2;
